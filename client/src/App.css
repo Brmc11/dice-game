@@ -1,0 +1,50 @@
+/*
+Red I Like : #b80c09
+*/
+
+body {
+  background-color: #efefef;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 22px;
+}
+
+.App-logo-1 {
+  animation: App-logo-spin infinite 10s linear;
+  height: 22px;
+}
+
+.App-header {
+  background-color: #00b0ff;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-header-container {
+  margin: 0 auto;
+}
+
+.App-header-container img {
+  margin: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: white;
+  margin: 0;
+}
+
+.App-subtitle {
+  color: #bdd358;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

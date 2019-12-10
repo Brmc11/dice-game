@@ -1,0 +1,38 @@
+body {
+  box-sizing: border-box;
+}
+
+.game-container {
+    max-width: 1000px;
+    margin: 25px auto 0;
+    padding: 0 15px;
+}
+
+.form-container {
+  flex-grow: 1;
+}
+
+.cars-container {
+  max-width: 900px;
+  color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.car-card {
+  background-color: #00b0ff;
+  padding: 12px 8px;
+  border-radius: 6px;
+}
+
+.car-photo img {
+  width: 95%;
+  padding: 6px;
+  border: 1px solid #efefef;
+}

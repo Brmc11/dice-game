@@ -1,0 +1,24 @@
+.selected-car {
+  margin: 1rem 0;
+  padding: 10px 15px;
+  width: 500px;
+  color: white;
+  border-radius: 10px;
+  background-color: #00b0ff;
+  display: flex
+}
+
+.selected-car > div {
+  margin: .5rem 1rem;
+}
+
+.selected-car .image-container img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.image-container {
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid gray;
+}

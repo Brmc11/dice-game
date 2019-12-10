@@ -1,0 +1,99 @@
+
+.GameBoard {
+  background: #2D2C33;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: 1fr .5fr 2fr;
+  grid-template-rows: 150px 125px 150px;
+  grid-gap: 15px;
+  grid-template-areas: 
+    "controls first-digit high-price"
+    "controls first-digit dice"
+    "logo first-digit low-price";
+}
+
+.GameBoard > div {
+  border-radius: 10px; 
+}
+
+.controls {
+  grid-area: controls;
+  background-color: #ADBDFF;
+  display: grid; 
+  grid-gap: 20px;
+  grid-template-rows: .60fr .40fr;  
+}
+
+.die-roller,
+.higher-lower-buttons {  
+  background: #BDD358;
+  border-radius: inherit;
+  display: flex; 
+  justify-content: space-around;
+}
+
+.die-roller > div {
+  margin: auto
+}
+
+.higher-lower-buttons > button {
+  margin: auto;
+}
+
+.logo {
+  grid-area: logo;
+  background-color: #f50057;
+}
+
+.first-digit {
+  grid-area: first-digit;
+  background-color: #00B0FF;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+}
+
+.high-price {
+  grid-area: high-price;
+  background-color: #BDD358;  
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.dice {
+  grid-area: dice; 
+  background-color: goldenrod;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+.low-price {
+  grid-area: low-price;
+  background-color: #BDD358;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+.price-square {
+  height: 125px; 
+  width: 75px; 
+  background-color: #2D2C33;
+  border: 5px solid #00B0FF;  
+}
+
+.price-first {
+  border: 5px solid goldenrod;
+}
+
+.dice-square {
+  height: 75px;
+  width: 75px; 
+  background-color: #2D2C33;
+  border: 5px solid rebeccapurple;
+}

@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: dice-game
+  output:
+    ansi:
+      enabled: detect
+  profiles:
+    active: local
+  #server:
+  #context-path: /
+  #port: 8080
+management:
+  context-path: /manage
+  security:
+    roles: oa--support-
+    #logging:
+    #level:
+    #org.springframework.security: DEBUG
+kroger:
+  eaf:
+    version: 4.5.0
+
+marketcheck:
+  api-key: mUoSWdlpc4YljqUrD2ZZBAfIv4oDjSxR
+---
+spring:
+  profiles: local
+---
+spring:
+  profiles: unittest
+---
+spring:
+  profiles: cloud
